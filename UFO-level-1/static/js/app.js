@@ -6,10 +6,10 @@ let tableData = data;
 // YOUR CODE HERE!
 
 let tBody = d3.select("tBody");
-let ufoTable = d3.select("table");
+let table = d3.select("table");
 
 let tClass = d3.select("class", "table table-striped");
-ufoTable.attr("class", "table table-striped");
+table.attr("class", "table table-striped");
 
 function builder(ufos) {
     ufos.forEach((urows) => {
